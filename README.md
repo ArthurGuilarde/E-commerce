@@ -1,116 +1,44 @@
-<p align="center">
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="100" src="logo.png" alt="E-commerce">
+## Available Scripts
 
-</p>
+In the project directory, you can run:
 
-<p align="center">
-  <img src="https://img.shields.io/npm/l/vue.svg?sanitize=true" alt="License">
-</p>
+### `yarn start`
 
-<h2 align="center">E-commerce</h2>
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Projeto desenvolvido com o obejtivo de treinar habilidades de desenvolvimento e aprender novas tecnologias, utilizo a licença do tipo MIT-licensed open source e o desenvolvimento é feito com objetivo de ajudar de alguma maneira a comunidade de Dev.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Se você deseja me ajudar, por favor considere:
+### `yarn test`
 
-- Mandar dicas de tecnologias.
-- Mandar idéias de projetos.
-- Sugerir melhorias.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-E-mail para contato: arthur.nemi.g@gmail.com
+### `yarn build`
 
-<br />
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Quais tecnologias estão sendo usadas nesse projeto?
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Estou utilizando no backend Node.js e no frontend React.
-Me propus utilizar Graphql com o objetivo de aprender mais sobre essa tecnologia e em todos módulos busco utilizar Typescript para facilitar no desenvolvimento.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<br />
+### `yarn eject`
 
-# Divisão do projeto
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Cada linha do desenvolvimento está separada em um branch específico.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- [Branch backend](#Backend-instruções)
-- [Branch frontend](#Frontend-instruções)
-- Branch mobile
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Backend instruções
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Instalando dependencias
+## Learn More
 
-```
-yarn install
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Iniciando servidor de desenvolvimento
-
-```
-yarn dev:server
-```
-
-Iniciando servidor de produção
-
-```
-yarn build
-yarn prod:server
-```
-
-As configurações do banco de dados estão dentro do arquivo "ormconfig.json" estou utilizando o banco Postgres.
-
-Recomendo a criação de uma instancia para teste com as seguintes informações:
-
-```
-"type": "postgres",
-"host": "localhost",
-"port": 5432,
-"username": "postgres",
-"password": "123",
-"database": "test"
-```
-
-Através do script abaixo você consegue intanciar um docker para teste
-
-```
-docker run --name CONTAINER_NAME -e POSTGRES_PASSWORD=123 -p 5432:5432 -d postgres
-```
-
-<br />
-<br />
-<br />
-
-## Frontend instruções
-
-Instalando dependencias
-
-```
-yarn install
-```
-
-Iniciando servidor de desenvolvimento
-
-```
-yarn start
-```
-
-Iniciando servidor de produção
-
-```
-yarn build
-```
-
-<br />
-<br />
-<br />
-
-# Documentation
-
-Em breve.
-
-# License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2020-present, Arthur Guilarde
+To learn React, check out the [React documentation](https://reactjs.org/).
