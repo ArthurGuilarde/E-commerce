@@ -20,17 +20,21 @@ Se você deseja me ajudar, por favor considere:
 
 E-mail para contato: arthur.nemi.g@gmail.com
 
+<br />
+
 # Quais tecnologias estão sendo usadas nesse projeto?
 
 Estou utilizando no backend Node.js e no frontend React.
 Me propus utilizar Graphql com o objetivo de aprender mais sobre essa tecnologia e em todos módulos busco utilizar Typescript para facilitar no desenvolvimento.
+
+<br />
 
 # Divisão do projeto
 
 Cada linha do desenvolvimento está separada em um branch específico.
 
 - [Branch backend](#Backend-instruções)
-- Branch frontend
+- [Branch frontend](#Frontend-instruções)
 - Branch mobile
 
 ## Backend instruções
@@ -72,6 +76,34 @@ Através do script abaixo você consegue intanciar um docker para teste
 ```
 docker run --name CONTAINER_NAME -e POSTGRES_PASSWORD=123 -p 5432:5432 -d postgres
 ```
+
+<br />
+<br />
+<br />
+
+## Frontend instruções
+
+Instalando dependencias
+
+```
+yarn install
+```
+
+Iniciando servidor de desenvolvimento
+
+```
+yarn start
+```
+
+Iniciando servidor de produção
+
+```
+yarn build
+```
+
+<br />
+<br />
+<br />
 
 # Documentation
 
